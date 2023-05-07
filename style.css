@@ -1,9 +1,10 @@
 body {
-    background-color: #00FFFF ;
+    /*background-color: #00FFFF ;*/
     background-image: url(img/krystian-tambur-k7rZ8wTfABA-unsplash.jpg);
     background-size: cover;
     font-size: larger;
     font-weight: bolder;
+
     
 }
 
@@ -11,6 +12,7 @@ h1 {
     text-align: center;
     font-weight: bolder;
     font-size: 80px;
+    
 }
 
 
@@ -22,3 +24,41 @@ margin-right: auto;
 border: solid 10px;
 
 }
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: solid;
+}
+
+.whatsapp {
+width: 200px;
+height: 50px;
+cursor:pointer;
+background-color: lightgreen;
+border-radius: 30px;
+font-size: large;
+
+}
+
+.youtube {
+width: 200px;
+height: 50px;
+cursor:pointer;
+background-color: #f54141;
+border-radius: 30px;
+font-size: large;
+}
+
+.maps {
+    width: 200px;
+height: 50px;
+cursor:pointer;
+background-color: #82b8f3;
+border-radius: 30px;
+font-size: large;
+}
+
