@@ -1,21 +1,47 @@
 body {
-    /*background-color: #00FFFF ;*/
-    background-image: url(img/krystian-tambur-k7rZ8wTfABA-unsplash.jpg);
+    /*background-color: #00FFFF ;
+    background-image: url(img/krystian-tambur-k7rZ8wTfABA-unsplash.jpg);*/
     background-size: cover;
     font-size: larger;
     font-weight: bolder;
 
-
 }
 
 h1 {
-    text-align: center;
+
     font-weight: bolder;
     font-size: 80px;
 
 }
 
+.banner {
+    background-image: url(img/2021-06-14.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+    text-align: center;
 
+
+}
+
+.cards {
+    display: flex;
+    grid-template-columns: 0fr 0fr 0fr;
+    
+   
+}
+
+
+.card-info {
+    background: rgb(146, 146, 239);
+    border-radius: 40px;
+    padding: 100px;
+    height: 10px;
+    width: fit-content;
+    margin: 8px;
+}
+
+/*
 .img1 {
     width: 800px;
     display: block;
@@ -66,3 +92,4 @@ button:hover {
     border-color: #ffff00;
     
 }
+*/
