@@ -1,0 +1,18 @@
+body {
+    background-color: #00FFFF ;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.img1 {
+
+display: block;
+margin-left: auto;
+margin-right: auto;
+border: solid 10px;
+
+}
