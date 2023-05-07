@@ -1,5 +1,10 @@
 body {
     background-color: #00FFFF ;
+    background-image: url(img/krystian-tambur-k7rZ8wTfABA-unsplash.jpg);
+    background-size: cover;
+    font-size: larger;
+    font-weight: bolder;
+    
 }
 
 h1 {
@@ -7,6 +12,7 @@ h1 {
     font-weight: bolder;
     font-size: 80px;
 }
+
 
 .img1 {
 width: 800px;
