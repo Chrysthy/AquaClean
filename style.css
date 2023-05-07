@@ -5,29 +5,29 @@ body {
     font-size: larger;
     font-weight: bolder;
 
-    
+
 }
 
 h1 {
     text-align: center;
     font-weight: bolder;
     font-size: 80px;
-    
+
 }
 
 
 .img1 {
-width: 800px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-border: solid 10px;
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 10px;
 
 }
 
 a {
     text-decoration: none;
-    
+
 }
 
 a:hover {
@@ -35,30 +35,34 @@ a:hover {
 }
 
 .whatsapp {
-width: 200px;
-height: 50px;
-cursor:pointer;
-background-color: lightgreen;
-border-radius: 30px;
-font-size: large;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: lightgreen;
+    border-radius: 30px;
+    font-size: large;
 
 }
 
 .youtube {
-width: 200px;
-height: 50px;
-cursor:pointer;
-background-color: #f54141;
-border-radius: 30px;
-font-size: large;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #f54141;
+    border-radius: 30px;
+    font-size: large;
 }
 
 .maps {
     width: 200px;
-height: 50px;
-cursor:pointer;
-background-color: #82b8f3;
-border-radius: 30px;
-font-size: large;
+    height: 50px;
+    cursor: pointer;
+    background-color: #82b8f3;
+    border-radius: 30px;
+    font-size: large;
 }
 
+button:hover {
+    border-color: #ffff00;
+    
+}
