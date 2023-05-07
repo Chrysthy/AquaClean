@@ -44,13 +44,10 @@ h1 {
     border-style: solid;
 }
 
-.links {
-width: 800px;
-
-}
-
 .click {
-   text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 .footer p {
@@ -63,7 +60,6 @@ width: 800px;
 }
 
 .footer img {
-    width: 80px;
+    width: 45px;
 
 }
-
