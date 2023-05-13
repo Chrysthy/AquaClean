@@ -66,6 +66,28 @@ h1 {
 
 @media (min-width: 300px) {
     .cards {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
+        color: black;
     }
-  }
+}
+
+/*@media(max-width: 300px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+*/
+
+@media (min-width: 300px) {
+    .banner {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
+
+@media(max-width: 900px) {
+    .banner {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
