@@ -63,3 +63,9 @@ h1 {
     width: 45px;
 
 }
+
+@media (min-width: 300px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
