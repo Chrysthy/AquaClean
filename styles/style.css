@@ -28,9 +28,6 @@ ul li {
     margin: 0 0.15em 0 0.75em;
 }
 
-ul:hover a {
-    color: #3d3df8;
-}
 
 ul:hover a:hover {
     color: #3d3df8;
@@ -63,6 +60,22 @@ h1 {
     justify-content: center;
     justify-content: space-around;
     mix-blend-mode: color-burn;
+}
+
+.one:hover  {
+    animation: shake 200ms 2;
+}
+.two:hover  {
+    animation: shake 200ms 2;
+}
+.three:hover  {
+    animation: shake 200ms 2;
+}
+
+@keyframes shake {
+    0%, 100% {translate: 0}
+    25% {translate: 0.125ren;}
+    75% {translate: -0.125rem;}
 }
 
 .footer p {
