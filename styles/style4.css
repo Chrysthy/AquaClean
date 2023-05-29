@@ -53,3 +53,36 @@ ul:hover a:hover {
 
 
 }
+
+@media (min-width: 300px) {
+    .body {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    
+     .footer {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    
+    .values  {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
+
+@media(max-width: 1023pxpx) {
+    .footer {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    
+    .body {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    .values  {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
