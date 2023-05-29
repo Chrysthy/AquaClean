@@ -20,7 +20,7 @@ ul {
     list-style: none;
     justify-content: center;
     justify-content: space-around;
-
+    
 }
 
 ul li {
@@ -44,7 +44,7 @@ h1 {
 }
 
 .banner {
-    background-image: url(../AquaClean/img/2021-06-14.jpg);
+    background-image: url(../img/2021-06-14.jpg);
     background-size: cover;
     background-position: center;
     padding: 150px 0;
@@ -62,20 +62,32 @@ h1 {
     mix-blend-mode: color-burn;
 }
 
-.one:hover  {
+.one:hover {
     animation: shake 200ms 2;
 }
-.two:hover  {
+
+.two:hover {
     animation: shake 200ms 2;
 }
-.three:hover  {
+
+.three:hover {
     animation: shake 200ms 2;
 }
 
 @keyframes shake {
-    0%, 100% {translate: 0}
-    25% {translate: 0.125ren;}
-    75% {translate: -0.125rem;}
+
+    0%,
+    100% {
+        translate: 0
+    }
+
+    25% {
+        translate: 0.125ren;
+    }
+
+    75% {
+        translate: -0.125rem;
+    }
 }
 
 .footer p {
@@ -92,30 +104,40 @@ h1 {
 
 }
 
+
 @media (min-width: 300px) {
-    .cards {
+    .banner {
         grid-template-columns: 1fr;
         color: black;
     }
 }
 
-/*@media(max-width: 300px) {
-    .cards {
-        grid-template-columns: 1fr 1fr;
+@media(max-width: 1023pxpx) {
+    .banner {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
+
+
+/*@media screen and (min-width: 1024px) {
+    .banner {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .banner {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        grid-template-columns: 1fr;
+        color: black;
     }
 }
 */
-
-@media (min-width: 300px) {
-    .banner {
-        grid-template-columns: 1fr;
-        color: black;
-    }
-}
-
-@media(max-width: 900px) {
-    .banner {
-        grid-template-columns: 1fr;
-        color: black;
-    }
-}
