@@ -3,7 +3,7 @@ body {
     font-weight: bolder;
     margin: 0;
     font-family: Playfair Display, sans-serif;
-   
+
 
 
 }
@@ -11,12 +11,6 @@ body {
 h1 {
     margin-left: 80px;
     margin-top: 100px;
-}
-
-p {
-    margin-left: 80px;
-    margin-top: 20px;
-    
 }
 
 
@@ -47,11 +41,13 @@ ul:hover a:hover {
     box-shadow: 0 2px 0 0 currentColor;
 }
 
-.mission {
+.contact {
     margin-left: 150px;
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 25px;
+    list-style: none;
 }
+
 
 .footer {
     position: absolute;
@@ -60,4 +56,34 @@ ul:hover a:hover {
     margin: 0;
 
 
+}
+
+.click {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    mix-blend-mode: color-burn;
+    
+}
+
+.click:hover {
+    .three:hover {
+        animation: shake 200ms 2;
+    }
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        translate: 0
+    }
+
+    25% {
+        translate: 0.125ren;
+    }
+
+    75% {
+        translate: -0.125rem;
+    }
 }
