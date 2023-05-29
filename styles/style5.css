@@ -87,3 +87,36 @@ ul:hover a:hover {
         translate: -0.125rem;
     }
 }
+
+@media (min-width: 300px) {
+    .click {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    
+     .footer {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    
+    .contact  {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
+
+@media(max-width: 1023pxpx) {
+    .footer {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    
+    .click {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+    .contact  {
+        grid-template-columns: 1fr;
+        color: black;
+    }
+}
