@@ -2,8 +2,6 @@
 
 Company specialized in offering cleaning and maintenance services for residential and public swimming pools.
 
-
-
 <br>
 <hr>
 <h2> Suggestions </h2>
