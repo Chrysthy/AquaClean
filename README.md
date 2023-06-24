@@ -2,7 +2,9 @@
 
 Company specialized in offering cleaning and maintenance services for residential and public swimming pools.
 
+<br>
 
+<p align="center"> <img height="500em" src="img/AquaClean.png" alt="certificado"> </p> 
 
 <br>
 <hr>
