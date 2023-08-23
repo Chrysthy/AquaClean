@@ -1,4 +1,4 @@
-# AquaClean 🌊 Specialist Pool Cleaner.
+# AquaClean 🌊 Pool Cleaner Specialist.
 
 Company specialized in offering cleaning and maintenance services for residential and public swimming pools.
 
